@@ -24,7 +24,11 @@ $variable = 30;
  }
 
 
- 
+
+
+ //use variable , gettype , var_dump , print_r
+
+
 $vartype = 50; // define a variable and assign it an integer value
 
 // use gettype to determine the data type of variable
@@ -36,5 +40,12 @@ echo "var_dump down here:\n";
 var_dump($vartype);
 /* Output:
 int(50)
+*/
+
+// Use print_r to display a human-readable representation of the variable
+echo "Using print_r:\n";
+print_r($myVariable);
+/* Output:
+50
 */
 ?>
