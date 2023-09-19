@@ -19,7 +19,7 @@ echo "using gettype:", "<br>";
 echo "type of integer: " . gettype($integerVar) . "<br>"; 
 echo "type of floatVar: " . gettype($floatVar) . "<br>"; 
 echo "type of stringVar: " . gettype($stringVar) . "<br>"; 
-echo "Type of arrayVar: " . gettype($arrayVar) . "<br>";
+echo "Type of arrayVar: " . gettype($arrayVar) . "<br>","<br>";
 
 // print_r (3):
 echo "Using print_r:\n";
